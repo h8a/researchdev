@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+    <title>Researchdev</title>
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: black;
+            color: white;
+            font-size:15px;
+        }
+
+        .blinks {
+            animation-name: flicker;
+            animation-duration: 0.9s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+            -webkit-animation-name:flicker;
+            -webkit-animation-duration: 0.9s;
+            -webkit-animation-timing-function: linear;
+            -webkit-animation-iteration-count: infinite;
+        }
+
+        @-moz-keyframes flicker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+
+        @-webkit-keyframes flicker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+
+        @keyframes flicker {
+            0% { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            100% { opacity: 1.0; }
+        }
+    </style>
+</head>
+<body>
+<pre>
+<span style="color: chartreuse;">➜</span>  <span style="color: cyan;">researchdev</span> ls -la
+total 20
+drwxrwxr-x  3 heriberto heriberto 4096 abr  5 19:35 <span style="color: darkcyan;">.</span>
+drwxrwxrwx 31 heriberto heriberto 4096 abr  5 19:34 <span style="color: darkcyan;">..</span>
+-rw-rw-r--  1 heriberto heriberto 1804 abr  8 21:12 <a href="https://twitter.com/hery8a" target="_blank" rel="noopener noreferrer">twitter</a>
+-rw-rw-r--  1 heriberto heriberto 9020 abr  8 22:01 <a href="https://github.com/h8a" target="_blank" rel="noopener noreferrer">GitHub</a>
+-rw-rw-r--  1 heriberto heriberto  747 abr  8 22:14 heriberto.txt
+<span style="color: chartreuse;">➜</span>  <span style="color: cyan;">researchdev</span>
+<span style="color: chartreuse;">➜</span>  <span style="color: cyan;">researchdev</span>
+<span style="color: chartreuse;">➜</span>  <span style="color: cyan;">researchdev</span> cat heriberto.txt
+Nombre:  Heriberto Ochoa García
+Carrera: Ingenieria en sistemas computacionales
+Email:   herii8a@gmail.com
+Lenguajes:
+        - Python (Principal)
+        - Javascript
+Bases de datos:
+        - PostgreSQL
+        - MongoDB
+Frameworks:
+        - Django
+        - Angularjs, Angular >= 6
+        - Falcon
+        - Flask
+        - Bootstrap
+Sistemas operativos:
+        - GNU/Linux
+        - MacOS
+        - Windows
+DevOps:
+        - Git
+        - Docker
+        - Terraform
+Servidores en la nube:
+        - DigitalOcean
+        - Vultr
+Experiencia laboral:
+        - Cyttek    (Fullstack)
+        - Nullsec   (Research development)
+        - Luxelare  (Lider de desarrollo)
+Idiomas:
+        - Español (Nativo)
+        - Ingles  (Medio)
+<span style="color: chartreuse;">➜</span>  <span style="color: cyan;">researchdev</span> <span class="blinks">█</span>
+</pre>
+</body>
+</html>

@@ -1,0 +1,33 @@
+Nombre:  Heriberto Ochoa García
+Carrera: Ingenieria en sistemas computacionales
+Email:   herii8a@gmail.com
+Lenguajes:
+        - Python (Principal)
+        - Javascript
+Bases de datos:
+        - Postgres
+        - MongoDB
+Frameworks:
+        - Django
+        - Angularjs, Angular >= 6
+        - Falcon
+        - Flask
+        - Bootstrap
+Sistemas operativos:
+        - GNU/Linux
+        - MacOS
+        - Windows
+DevOps:
+        - Git
+        - Docker
+        - Terraform
+Servidores en la nube:
+        - DigitalOcean
+        - Vultr
+Experiencia laboral:
+        - Cyttek    (Desarrollador backend)
+        - Nullsec   (Research development)
+        - Luxelare  (Lider de desarrollo)
+Idiomas:
+        - Español (Nativo)
+        - Ingles  (Medio)
